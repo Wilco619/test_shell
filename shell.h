@@ -88,8 +88,7 @@ typedef struct relayinfo
 	char **environ;
 	int env_changed;
 	int status;
-
-	char **buffer_command; /* pointer to cmd ; chain buffer, for memory mangement */
+	char **buffer_command;/* pointer to cmd; chain buffer, for memory mangement */
 	int buffer_command_type; /* CMD_type ||, &&, ; */
 	int read_filedescripter;
 	int histcount;
